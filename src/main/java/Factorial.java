@@ -1,8 +1,11 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Factorial {
 
     public static void main(String[] args) {
+
+        ArrayList<Integer> al = new ArrayList();
         System.out.println("enter the range of factorial");
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
