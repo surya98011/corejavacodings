@@ -5,10 +5,10 @@ public class MissingNumber {
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
-        System.out.println(" please enter the size of array");
+        System.out.println("Please enter the size of array");
         int n  = scn.nextInt();
         int [] arr = new int[n];
-        System.out.println("enter "+ n+ " elements");
+        System.out.println("Enter "+ n+ " elements");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scn.nextInt();
         }
