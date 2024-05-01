@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class TripletSumArrays {
 
-
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println(" please enter the size of array");

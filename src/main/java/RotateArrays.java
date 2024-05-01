@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class RotateArrays {
 
+    //ctrl+shift+j - to remove the unnecessary spaces or line
+
     static int [] rotate(int [] arr, int k){
 
         int n = arr.length;
@@ -21,21 +23,19 @@ public class RotateArrays {
         }
         return ans;
     }
-
-
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
         System.out.println(" please enter the size of array");
         int n  = scn.nextInt();
         int [] arr = new int[n];
-        System.out.println("enter "+ n+ " elements");
+        System.out.println(" enter "+ n+ " elements");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scn.nextInt();
         }
         System.out.println(" enter the value K to rotate ");
         int k = scn.nextInt();
-        System.out.println("original arrays");
+        System.out.println(" original arrays");
         printArrays(arr);
 
         int[] rotate = rotate(arr, k);

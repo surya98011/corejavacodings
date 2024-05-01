@@ -18,8 +18,6 @@ return -1; // if there is no any value found repeating we can return -1
     }
 
 
-
-
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);

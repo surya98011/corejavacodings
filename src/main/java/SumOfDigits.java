@@ -14,7 +14,7 @@ if(n>minValue && n<maxValue)
 
             sumOfDigits +=n%10;
 
-            n = n / 10;
+           n = n / 10;
 
         }
     System.out.println("Sum of digits in "+original_n+" = "+sumOfDigits);
